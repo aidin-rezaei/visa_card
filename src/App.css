@@ -281,3 +281,32 @@ input::-webkit-inner-spin-button {
   text-transform: capitalize;
 
 }
+.flexbox{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.flexbox2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.flexbox2 input{
+  width: 100px;
+}
+.visa.back{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
