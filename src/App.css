@@ -145,7 +145,11 @@
 .cvv-text {
   position: absolute;
   color: #fff;
-  top: -40px;
+  top: -35px;
+  color: #c5c5c5;
+  font-size: 12px;
+  text-transform: capitalize;
+
 }
 
 .back-logo {
@@ -269,7 +273,12 @@ input::-webkit-inner-spin-button {
   margin-top: 5px;
   padding: 5px 10px;
 }
-
+.footer-card > div:first-child{
+  width: 100%;
+}
+.footer-card > div:nth-child(2){
+  width: 50%;
+}
 .footer-card p {
   color: #fff;
   padding: 0;
@@ -303,7 +312,17 @@ input::-webkit-inner-spin-button {
   transform: rotateY(180deg);
 }
 
-
+.focus{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  /* margin-top: -100%; */
+  background: rgba(0, 0, 0, 0.182);
+  border-radius: 6px;
+  border: solid 1px #c5c5c5;
+  transition: all .5s ease;
+}
 
 
 
