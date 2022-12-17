@@ -17,4 +17,6 @@ html,body,#roof{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: #00284a;
 }
